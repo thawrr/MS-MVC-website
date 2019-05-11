@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="fonts\glyphicons-halflings-regular.eot" />
+    <None Remove="fonts\glyphicons-halflings-regular.svg" />
+    <None Remove="fonts\glyphicons-halflings-regular.ttf" />
+    <None Remove="fonts\glyphicons-halflings-regular.woff" />
+    <None Remove="fonts\glyphicons-halflings-regular.woff2" />
+    <None Remove="Scripts\bootstrap.js" />
+    <None Remove="Scripts\bootstrap.min.js" />
+    <None Remove="Scripts\jquery-3.3.1.js" />
+    <None Remove="Scripts\jquery-3.3.1.min.js" />
+    <None Remove="Scripts\jquery-3.3.1.min.map" />
+    <None Remove="Scripts\jquery-3.3.1.slim.js" />
+    <None Remove="Scripts\jquery-3.3.1.slim.min.js" />
+    <None Remove="Scripts\jquery-3.3.1.slim.min.map" />
+    <None Remove="Scripts\modernizr-2.8.3.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
+  </ItemGroup>
+
+</Project>
